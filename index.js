@@ -24,7 +24,6 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/projects', require('./routes/projects'));
 app.use('/api/tasks', require('./routes/tasks'));
 
-
 // start app
 app.listen(port, '0.0.0.0', () => {
     console.log(`Server running in port ${port}`);
